@@ -1,0 +1,4 @@
+git tree --color=always | aha --title "EES git tree"> EEStree.html
+pygmentize -O full,style=default -o ESCD3in.html ESCD3in.py
+pygmentize -O full,style=default -o source4.html source4.py
+pygmentize -O full,style=default -o tkinterTest.html tkinterTest.py
